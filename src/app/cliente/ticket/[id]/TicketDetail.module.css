@@ -1,0 +1,95 @@
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 28px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label {
+    font-size: 15px;
+    color: #222;
+}
+
+.badge {
+    padding: 6px 12px;
+    width: fit-content;
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.low {
+    background-color: #e6ffed;
+    color: #067830;
+}
+
+.medium {
+    background-color: #fff9d6;
+    color: #9a6e00;
+}
+
+.high {
+    background-color: #ffe4e4;
+    color: #a50000;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.commentBox {
+    padding: 12px;
+    border-radius: 6px;
+    background-color: #f3f6ff;
+    border: 1px solid #ccd5ff;
+}
+
+.commentDate {
+    font-size: 13px;
+    color: #444;
+}
+
+.inputArea {
+    width: 100%;
+    min-height: 70px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.button {
+    margin-top: 8px;
+    background-color: #175ef6;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

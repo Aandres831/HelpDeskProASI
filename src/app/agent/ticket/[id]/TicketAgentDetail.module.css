@@ -1,0 +1,36 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.buttonsWrapper {
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.actionButton {
+    padding: 6px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #1c5b52;
+    color: white;
+}
+
+.actionButton:hover {
+    opacity: 0.9;
+}
+
+.backButton {
+    padding: 6px 16px;
+    border-radius: 6px;
+    border: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}

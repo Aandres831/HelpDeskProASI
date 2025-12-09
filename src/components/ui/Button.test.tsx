@@ -49,5 +49,4 @@ describe('Button Component', () => {
     render(<Button disabled>Disabled</Button>);
     expect(screen.getByRole('button')).toBeDisabled();
   });
-}); 
-
+});
